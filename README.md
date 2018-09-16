@@ -6,3 +6,4 @@ A repository for my i3 Manjaro Linux machine. I recommend making a fork and keep
 - i3wm
 - compton
 - bashrc
+- vim
