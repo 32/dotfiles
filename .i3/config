@@ -139,8 +139,8 @@ set $ws8 8
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 #desktop bg
-exec --no-startup-id wal -i "${HOME}/Pictures/desktop-bg/2.jpg" -n
-exec --no-startup-id feh --bg-fill "${HOME}/Pictures/desktop-bg/2.jpg"
+exec --no-startup-id wal -i "${HOME}/Pictures/desktop-bg/current.jpg" -n
+exec --no-startup-id feh --bg-fill "${HOME}/Pictures/desktop-bg/current.jpg"
 
 exec --no-startup-id compton
 exec --no-startup-id killall polybar; polybar -r main_bar
@@ -464,7 +464,6 @@ mode "resize" {
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
-
 
 
 
