@@ -148,4 +148,8 @@ export YAOURT_COLORS="nb=1:pkg=1:ver=1;32:lver=1;45:installed=1;42:grp=1;34:od=1
 (cat ~/.cache/wal/sequences &)
 
 
+# Custom alias stuff
+alias changebg='wal -i "${HOME}/Pictures/desktop-bg/current.jpg" -n -c; feh --bg-fill "${HOME}/Pictures/desktop-bg/current.jpg"'
+
+
 
