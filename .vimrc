@@ -1,8 +1,9 @@
 " Basics:
-    syntax on
-    set encoding=utf-8
-    set number
-    set showmode
+    syntax on                       " Show syntax
+    set encoding=utf-8              " Set to UTF-8 encoding
+    set number                      " Display line numbers
+    set showmode                    " Display mode
+    set ruler                       " Display cursor position
 
 " Tab stuff
     set tabstop=4
@@ -12,4 +13,4 @@
 
 " ---------- Mappings ---------- 
 
-nnoremap <esc> :noh<return><esc> " Pressing escape gets rid of search highlighting 
+nnoremap <esc> :noh<return><esc>    " Pressing escape gets rid of search highlighting 
