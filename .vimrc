@@ -4,6 +4,7 @@
     set number                      " Display line numbers
     set showmode                    " Display mode
     set ruler                       " Display cursor position
+    set scrolloff=20                " Keep cursor at center of window
 
 " Tab stuff
     set tabstop=4
