@@ -7,3 +7,5 @@ A repository for my i3 Manjaro Linux machine. I recommend making a fork and keep
 - compton
 - bashrc
 - vim
+- mpd
+- ncmpcpp
